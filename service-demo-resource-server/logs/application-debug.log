@@ -1,0 +1,51 @@
+2024-07-01 08:56:21,368 INFO  [main] com.amrut.prabhu.product.ProductServiceApplication : Starting ProductServiceApplication using Java 17.0.9 on DIENNT-TGG with PID 23564 (C:\NTD_GDRIVE\PHATRIEN032024\diennt-project\service-demo-resource-server\target\classes started by Admin in C:\NTD_GDRIVE\PHATRIEN032024\diennt-project\service-demo-resource-server)
+2024-07-01 08:56:21,397 INFO  [main] com.amrut.prabhu.product.ProductServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-01 08:56:22,007 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=a76aad6e-90d8-3340-b581-8cc41b668d77
+2024-07-01 08:56:22,283 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9191 (http)
+2024-07-01 08:56:22,291 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-07-01 08:56:22,291 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-07-01 08:56:22,389 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-07-01 08:56:22,390 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 963 ms
+2024-07-01 08:56:22,443 WARN  [main] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2024-07-01 08:56:22,443 INFO  [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-01 08:56:22,450 INFO  [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c731956
+2024-07-01 08:56:22,625 DEBUG [main] org.springframework.security.web.access.expression.ExpressionBasedFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2024-07-01 08:56:22,639 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@389a5022, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bb8ead8, org.springframework.security.web.context.SecurityContextPersistenceFilter@57c69937, org.springframework.security.web.header.HeaderWriterFilter@6b16de91, org.springframework.security.web.csrf.CsrfFilter@46cf8c07, org.springframework.security.web.authentication.logout.LogoutFilter@7cc2c551, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@3c16528d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@446b64b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c472300, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b44318, org.springframework.security.web.session.SessionManagementFilter@100bba26, org.springframework.security.web.access.ExceptionTranslationFilter@5da6b13d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8b41ad]
+2024-07-01 08:56:22,653 WARN  [main] org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration : No spring.application.name found, defaulting to 'application'
+2024-07-01 08:56:22,654 WARN  [main] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2024-07-01 08:56:22,655 INFO  [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-01 08:56:23,053 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2024-07-01 08:56:23,108 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-01 08:56:23,115 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-01 08:56:23,133 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-07-01 08:56:23,178 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-07-01 08:56:23,253 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2024-07-01 08:56:23,253 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2024-07-01 08:56:23,352 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2024-07-01 08:56:23,353 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2024-07-01 08:56:23,433 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 08:56:23,443 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-07-01 08:56:23,444 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-07-01 08:56:23,546 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2024-07-01 08:56:23,548 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 20
+2024-07-01 08:56:23,550 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 08:56:23,552 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1719798983551 with initial instances count: 1
+2024-07-01 08:56:23,553 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application DEMO-SERVICE with eureka with status UP
+2024-07-01 08:56:23,554 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1719798983554, current=UP, previous=STARTING]
+2024-07-01 08:56:23,554 WARN  [main] com.netflix.discovery.InstanceInfoReplicator : Ignoring onDemand update due to rate limiter
+2024-07-01 08:56:23,555 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DEMO-SERVICE/host.docker.internal:9191: registering service...
+2024-07-01 08:56:23,568 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9191 (http) with context path ''
+2024-07-01 08:56:23,568 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 9191
+2024-07-01 08:56:23,580 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DEMO-SERVICE/host.docker.internal:9191 - registration status: 204
+2024-07-01 08:56:23,616 INFO  [main] com.amrut.prabhu.product.ProductServiceApplication : Started ProductServiceApplication in 2.588 seconds (JVM running for 2.818)
+2024-07-01 09:01:23,447 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 09:06:23,458 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 09:11:23,465 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 09:16:23,473 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 09:21:23,483 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-07-01 09:26:23,498 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
